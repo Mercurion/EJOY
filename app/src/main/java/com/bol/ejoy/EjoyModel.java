@@ -6,6 +6,9 @@ package com.bol.ejoy;
 public class EjoyModel {
     private static EjoyModel istanza = null;
 
+    private int colore;
+
+
     //Il costruttore private impedisce l'istanza di oggetti da parte di classi esterne
     private EjoyModel() {}
 
@@ -16,5 +19,12 @@ public class EjoyModel {
         }
         return istanza;
     }
-    
+
+    public int getColore() {
+        return colore;
+    }
+
+    public void setColore(int colore) {
+        this.colore = colore;
+    }
 }
