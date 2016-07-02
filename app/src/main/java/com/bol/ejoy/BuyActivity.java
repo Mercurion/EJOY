@@ -26,6 +26,7 @@ public class BuyActivity extends Activity {
             R.drawable.ejoy_green_gold_luxury408,
             R.drawable.ejoy_green_gold_luxury410,
             R.drawable.ejoy_green_gold_luxury425
+
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
